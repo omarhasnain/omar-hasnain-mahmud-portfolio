@@ -17,7 +17,7 @@ import {
   Target,
   FileSpreadsheet
 } from "lucide-react";
-
+import { FaWhatsapp } from "react-icons/fa";
 import { CASE_STUDIES, EXPERIENCE, STRENGTHS, PUBLICATION } from "./data";
 import { CaseStudy } from "./types";
 
@@ -619,17 +619,17 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-[9px] uppercase font-bold tracking-wider text-brand-silver">LinkedIn Network</p>
-                    <p className="text-xs font-bold text-white mt-0.5">linkedin.com/in/omarhasnainmahmud</p>
+                    <p className="text-xs font-bold text-white mt-0.5">Connect on LinkedIn</p>
                   </div>
                 </a>
 
                 <div className="bg-white/[0.03] border border-white/10 p-4 rounded-xl flex items-center gap-4">
                   <div className="w-10 h-10 bg-emerald-500/15 rounded-lg flex items-center justify-center text-emerald-400 flex-shrink-0">
-                    <Phone className="w-5 h-5" />
+                    <FaWhatsapp className="w-5 h-5" />
                   </div>
                   <div>
                     <p className="text-[9px] uppercase font-bold tracking-wider text-brand-silver">Quick WhatsApp Reachout</p>
-                    <p className="text-xs font-bold text-white mt-0.5">+8801999333643</p>
+                    <p className="text-xs font-bold text-white mt-0.5"><a href="https://wa.me/8801999333643" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
                   </div>
                 </div>
               </div>
