@@ -53,7 +53,7 @@ export default function ContactForm() {
 
     setIsSubmitting(true);
 
-    const accessKey = (import.meta as any).env.VITE_WEB3FORMS_ACCESS_KEY;
+    const accessKey = "11ee2db9-f6ff-4220-8461-20d974aa6a3b";
 
     if (accessKey) {
       try {
