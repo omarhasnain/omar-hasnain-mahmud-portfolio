@@ -628,8 +628,10 @@ export default function App() {
                     <FaWhatsapp className="w-5 h-5" />
                   </div>
                   <div>
-                    <p className="text-[9px] uppercase font-bold tracking-wider text-brand-silver">Quick WhatsApp Reachout</p>
-                    <p className="text-xs font-bold text-white mt-0.5"><a href="https://wa.me/8801999333643" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
+                    <a href="https://wa.me/8801999333643" target="_blank" rel="noopener noreferrer">
+                      <p className="text-[9px] uppercase font-bold tracking-wider text-brand-silver">Quick WhatsApp Reachout</p>
+                      <p className="text-xs font-bold text-white mt-0.5">Chat on WhatsApp</p>
+                    </a>
                   </div>
                 </div>
               </div>
