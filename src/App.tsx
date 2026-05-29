@@ -275,7 +275,7 @@ export default function App() {
                   { label: "Current Role", val: "Key Accounts Manager", sub: "Dekko ISHO VC · Gustav PMS" },
                   { label: "Domain focus", val: "SaaS · Hospitality PMS", sub: "VC-backed startup environment" },
                   { label: "Past Background", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
-                  { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on predictive Usability analysis" },
+                  { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on binary intrusion detection" },
                   { label: "Role Alignment Target", val: "Global Tech · E-learning", sub: "PM / Operations Manager" },
                 ].map((item) => (
                   <div key={item.label} className="py-3.5 first:pt-0 last:pb-0 block space-y-0.5">

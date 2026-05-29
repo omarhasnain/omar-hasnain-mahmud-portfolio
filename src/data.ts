@@ -80,7 +80,7 @@ export const EXPERIENCE: ExperienceItem[] = [
       "Ensure end-to-end QA coverage by performing meticulous field testing on SaaS reservation, billing, and reporting engines.",
       "Champion customer success and account health for high-profile hospitality clients including Shopnil Shindhu, Windy Terrace, and Mermaid Beach Resort."
     ],
-    clients: ["Shopnil Shindhu", "Windy Terrace", "Mermaid Beach Resort", "Sayeman Beach Resort"]
+    // clients: ["Shopnil Shindhu", "Windy Terrace", "Mermaid Beach Resort", "White Beach Resort"]
   },
   {
     period: "Mar 2025 — Oct 2025",
@@ -145,10 +145,10 @@ export const STRENGTHS: Strength[] = [
 ];
 
 export const PUBLICATION: Publication = {
-  title: "Machine Learning-Based Learning Curve & Usability Optimization on EdTech Platforms",
-  venue: "IEEE International Conference on Smart Systems and Computing Technology",
-  desc: "Published an academic paper analyzing user churn and engagement trends among e-learners using predictive machine learning models. Built frameworks that correlate LMS UX friction to user completion benchmarks, subsequently leveraging the models to design dynamic gamified pathways in production environments.",
-  doiLink: "https://ieeexplore.ieee.org/document/simulated-pm-portfolio-omar"
+  title: "A Novel CNN-BiLSTM Model with MultiHead Attention for Efficient Intrusion Detection",
+  venue: "IEEE 2nd International Conference on Computing, Applications and Systems (COMPAS 2025)",
+  desc: "Published an academic research paper focused on advancing Intrusion Detection Systems (IDS) using hybrid Deep Learning architectures, integrating CNN for automated feature extraction and BiLSTM networks for temporal traffic analysis.",
+  doiLink: "https://ieeexplore.ieee.org/document/11381796"
 };
 
 export const ACHIEVEMENTS: Achievement[] = [
