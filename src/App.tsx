@@ -122,14 +122,14 @@ export default function App() {
             </motion.div>
 
             {/* Core Biography paragraphs */}
-            <motion.p
+            {/* <motion.p
               initial={{ opacity: 0, y: 15 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               className="text-xs sm:text-sm md:text-base text-brand-silver max-w-3xl leading-relaxed font-normal"
             >
               Experienced in VC-backed SaaS environments, enterprise client delivery, and cross-functional product execution. Currently shaping Gustav — a hospitality PMS — at Dekko ISHO Venture Capital. Turning complex problems into clean, impactful product experiences.
-            </motion.p>
+            </motion.p> */}
 
             {/* Action CTAs button panel */}
             <motion.div
@@ -588,9 +588,9 @@ export default function App() {
                   <br />
                   together.
                 </h2>
-                <p className="text-xs sm:text-sm text-brand-silver leading-relaxed font-normal max-w-md">
+                {/* <p className="text-xs sm:text-sm text-brand-silver leading-relaxed font-normal max-w-md">
                   I'm currently looking for Product Manager, Operations Manager, and Product Analyst opportunities at global software structures or EdTech startups. Let's arrange a brief, secure sync.
-                </p>
+                </p> */}
               </div>
 
               {/* Static Anchor channels */}
@@ -609,7 +609,7 @@ export default function App() {
                 </a>
 
                 <a
-                  href="https://linkedin.com/in/omarhasnainmahmud"
+                  href="https://www.linkedin.com/in/hasnain-project-manager/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-white/[0.03] border border-white/10 hover:border-[#0284c7]/45 hover:bg-[#0284c7]/5 p-4 rounded-xl flex items-center gap-4 transition-all"
@@ -629,7 +629,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-[9px] uppercase font-bold tracking-wider text-brand-silver">Quick WhatsApp Reachout</p>
-                    <p className="text-xs font-bold text-white mt-0.5">Available for instant query loops</p>
+                    <p className="text-xs font-bold text-white mt-0.5">+8801999333643</p>
                   </div>
                 </div>
               </div>
