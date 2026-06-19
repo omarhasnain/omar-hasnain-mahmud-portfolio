@@ -38,7 +38,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     id: "lms-ux-simplification",
     num: "03",
     tag: "UX · LMS Navigation Optimization",
-    title: "LMS Notification UX Simplification — Improving Content Discoverability",
+    title: "LMS UX Simplification — Improving Content Discoverability",
     problem: "Eligible learners were receiving special program access notifications but were unable to locate the corresponding content within the LMS. This created confusion, frustration, and reduced engagement, with around 50 learners reporting difficulty accessing materials despite being qualified.",
     role: "Core Operations Team Member — Process & Learner Experience Optimization",
     actions: [
