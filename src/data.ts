@@ -23,15 +23,15 @@ export const CASE_STUDIES: CaseStudy[] = [
     num: "02",
     tag: "EdTech · Gamification",
     title: "Squid Game Project — Gamified Learning Experience Design",
-    problem: "Learners tackling intermediate programming concepts (like DOM manipulation and async JavaScript) at Programming Hero hit a learning plateau. Dense, dry textbook documentation caused a sharp 40% weekly student drop-off rate at key milestones.",
-    role: "Project Executive & Experience Designer",
+    problem: "Level 2 learners were facing intense technical learning pressure while the Job Placement Unit lacked a structured pipeline of industry-ready candidates.",
+    role: "Program Designer and Operations Lead",
     actions: [
-      "Conceptualized and structured a gamified micro-learning project themed around the popular 'Squid Game' narrative structure.",
-      "Developed a progression model where students solved real debugging problems (e.g., Red Light Green Light script debugging) to survive and advance to the next level.",
-      "Collaborated with UX web designer to embed interactive confetti, instant code validation feedback loops, and live visual leaderboards into the platform."
+      "Conceptualized and launched a 15-day gamified career acceleration program, inspired by competitive progression mechanics, to increase learner engagement and motivation.",
+      "Designed and executed a six-stage career readiness journey focused on project delivery, portfolio development, professional branding, and interview preparation under real-world deadlines.",
+      "Established an early-placement pathway by combining performance-based progression with cross-functional program execution, enabling high-potential learners to access career opportunities ahead of the standard timeline."
     ],
-    outcome: "Designed an extremely popular immersive learning milestone that registered massive engagement. Over 1,200 active learners completed the program with record-high feedback, reshaping internal standards for learning engagement.",
-    impactMetrics: ["22% increase in project submission rates", "15% reduction in course drop-offs", "1,200+ learners completed the program"],
+    outcome: "Designed and launched a gamified early placement accelerator that advanced 42 high-potential learners into the Job Placement pipeline and became a repeatable framework for future Level 2 cohorts.",
+    impactMetrics: ["82% participants progressed into the Job Placement pipeline", "Reduced time-to-placement through an early intervention program", "Created a repeatable framework adopted by future Level 2 cohorts"],
     stakeholders: ["Active Web Learners", "Core Curriculum Instructors", "Frontend Developers"]
   },
   {

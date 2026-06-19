@@ -281,16 +281,6 @@ export default function ContactForm() {
                   <p className="text-xs text-brand-silver leading-relaxed">
                     Your message has been preserved here inside local storage for review.
                   </p>
-                  
-                  {/* Instructional Tip Card */}
-                  <div className="bg-[#1e2538] border border-[#2563eb]/20 text-[#c8d0de] rounded-xl p-3.5 text-[11px] leading-relaxed text-left space-y-2">
-                    <span className="font-bold text-[#2563eb] flex items-center gap-1.5 uppercase tracking-wider text-[9px]">
-                      💡 Production Go-Live Tip
-                    </span>
-                    <p>
-                      To forward contact queries directly to your personal email inbox, get a free access key from <a href="https://web3forms.com" target="_blank" rel="noopener noreferrer" className="underline text-[#2563eb] font-semibold">web3forms.com</a> (takes 5 seconds) and paste it into your configuration as <code className="bg-[#0a0e1a] px-1.5 py-0.5 rounded text-white font-mono">VITE_WEB3FORMS_ACCESS_KEY</code>.
-                    </p>
-                  </div>
 
                   {/* MailTo Fallback for instant sending */}
                   <a
