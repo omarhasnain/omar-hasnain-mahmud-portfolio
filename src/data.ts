@@ -37,18 +37,20 @@ export const CASE_STUDIES: CaseStudy[] = [
   {
     id: "lms-ux-simplification",
     num: "03",
-    tag: "UX · LMS Optimization",
-    title: "LMS UX Simplification — Reducing Learner Drop-off",
-    problem: "The homework and lab submission portal in the LMS was cluttered with inputs and lacked clear progress tracking. Learners suffered from submission anxiety and manual errors, which filled customer support queues with repetitive tickets.",
-    role: "UX & Operations Lead",
+    tag: "UX · LMS Navigation Optimization",
+    title: "LMS Notification UX Simplification — Improving Content Discoverability",
+    problem: "Eligible learners were receiving special program access notifications but were unable to locate the corresponding content within the LMS. This created confusion, frustration, and reduced engagement, with around 50 learners reporting difficulty accessing materials despite being qualified.",
+    role: "Core Operations Team Member — Process & Learner Experience Optimization",
     actions: [
-      "Analyzed support feedback trends and recorded user sessions of 50+ students struggling with homework uploads.",
-      "Created wireframes and interactive flows to substitute a multi-field submission form with a drag-and-drop progress wizard.",
-      "Implemented live validation checks (e.g. invalid GitHub URL detection) before submission, coupled with encouraging progress indicators."
+      "Monitored learner engagement patterns and identified irregular participation among qualified students.",
+    "Conducted direct outreach to affected learners to understand barriers preventing them from accessing program content.",
+    "Identified a UX gap where notification messages lacked a direct navigation path to the relevant content section.",
+    "Proposed a direct anchor-link solution within notification messages to allow one-click access to the correct content area.",
+    "Collaborated with engineering and operations stakeholders to validate feasibility and support implementation of the solution."
     ],
-    outcome: "Transformed student confidence on key submission milestones, drastically streamlining course operations while lifting student self-service scores.",
-    impactMetrics: ["45% reduction in submission support queries", "28% lift in first-time correct submissions", "98% user satisfaction on the new flow"],
-    stakeholders: ["Customer Success Staff", "LMS Development Squad", "Course Directors"]
+    outcome: "Improved content accessibility and reduced navigation friction by enabling direct access from notifications to relevant learning content. The solution was later implemented and improved overall learner engagement within the platform.",
+    impactMetrics: ["~40% reduction in navigation related support queries", "~72% of affected learners experienced improved access clarity", "Saved ~65 minutes of operational workload and ~50+ support calls per batch cycle through UX navigation simplification."],
+    stakeholders: ["L-1 Web Learners", "Operations Team", "Engineering Team"]
   },
   {
     id: "hotel-system-integration",
@@ -73,7 +75,7 @@ export const EXPERIENCE: ExperienceItem[] = [
     period: "Feb 2026 — Present",
     company: "Dekko ISHO Venture Capital",
     sub: "Gustav.club · Hospitality SaaS",
-    role: "Key Accounts Manager",
+    role: "Technical Accounts Manager",
     highlights: [
       "Coordinate SaaS product delivery and feedback integration between dev teams, sales departments, and enterprise client accounts.",
       "Act as product operations champion, gathering raw user requirements and turning them into clear product stories in Jira.",
