@@ -32,7 +32,7 @@ export const CASE_STUDIES: CaseStudy[] = [
     ],
     outcome: "Designed and launched a gamified early placement accelerator that advanced 42 high-potential learners into the Job Placement pipeline and became a repeatable framework for future Level 2 cohorts.",
     impactMetrics: ["82% participants progressed into the Job Placement pipeline", "Reduced time-to-placement through an early intervention program", "Created a repeatable framework adopted by future Level 2 cohorts"],
-    stakeholders: ["Level-2 Web Learners", "Core Curriculum Instructors", "Operations Team"]
+    stakeholders: ["L-2 Web Learners", "Core Curriculum Instructors", "Operations Team"]
   },
   {
     id: "lms-ux-simplification",
