@@ -22,17 +22,17 @@ export const CASE_STUDIES: CaseStudy[] = [
     id: "squid-game-gamification",
     num: "02",
     tag: "EdTech · Gamification",
-    title: "Squid Game Project — Gamified Learning Experience Design",
+    title: "Squid Game Project — Gamified Career Accelerator",
     problem: "Level 2 learners were facing intense technical learning pressure while the Job Placement Unit lacked a structured pipeline of industry-ready candidates.",
     role: "Program Designer and Operations Lead",
     actions: [
-      "Conceptualized and launched a 15-day gamified career acceleration program, inspired by competitive progression mechanics, to increase learner engagement and motivation.",
-      "Designed and executed a six-stage career readiness journey focused on project delivery, portfolio development, professional branding, and interview preparation under real-world deadlines.",
+      "Conceptualized and launched a 15-day gamified career acceleration program, inspired by Squid Game progression mechanics, to increase learner engagement and motivation.",
+      "Designed and executed a 6-stage career readiness journey focused on project delivery, portfolio development, professional branding, and interview preparation under real-world deadlines.",
       "Established an early-placement pathway by combining performance-based progression with cross-functional program execution, enabling high-potential learners to access career opportunities ahead of the standard timeline."
     ],
     outcome: "Designed and launched a gamified early placement accelerator that advanced 42 high-potential learners into the Job Placement pipeline and became a repeatable framework for future Level 2 cohorts.",
     impactMetrics: ["82% participants progressed into the Job Placement pipeline", "Reduced time-to-placement through an early intervention program", "Created a repeatable framework adopted by future Level 2 cohorts"],
-    stakeholders: ["Active Web Learners", "Core Curriculum Instructors", "Frontend Developers"]
+    stakeholders: ["Level-2 Web Learners", "Core Curriculum Instructors", "Operations Team"]
   },
   {
     id: "lms-ux-simplification",
