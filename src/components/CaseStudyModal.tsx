@@ -120,11 +120,11 @@ export default function CaseStudyModal({ caseStudy, onClose }: CaseStudyModalPro
             </div>
           </div>
 
-          {/* Business & UX Impact Metrics */}
+          {/* Program Impact Metrics */}
           <div className="bg-gradient-to-r from-emerald-950/20 to-teal-950/20 border border-emerald-500/20 p-6 rounded-xl space-y-4">
             <h4 className="text-xs font-bold uppercase tracking-wider text-emerald-400 flex items-center gap-2">
               <TrendingUp className="w-4 h-4 text-emerald-400" />
-              Business & UX Impact Metric Wins
+              Program Impact Metrics
             </h4>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {caseStudy.impactMetrics?.map((metric, idx) => (
