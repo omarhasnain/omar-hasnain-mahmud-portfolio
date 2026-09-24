@@ -272,7 +272,7 @@ export default function App() {
 
               <div className="divide-y divide-gray-100">
                 {[
-                  { label: "Current Role", val: "Key Accounts Manager", sub: "Dekko ISHO VC · Gustav PMS" },
+                  { label: "Current Role", val: "Technical Support Engineer", sub: "Dekko ISHO VC · Gustav PMS" },
                   { label: "Domain focus", val: "SaaS · Hospitality PMS", sub: "VC-backed startup environment" },
                   { label: "Past Background", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
                   { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on binary intrusion detection" },
