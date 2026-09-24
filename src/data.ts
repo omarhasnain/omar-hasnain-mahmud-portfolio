@@ -73,12 +73,12 @@ export const CASE_STUDIES: CaseStudy[] = [
 export const EXPERIENCE: ExperienceItem[] = [
   {
     period: "Feb 2026 — July 2026",
-    company: "Dekko ISHO Venture Capital",
-    sub: "Gustav.club · Hospitality SaaS",
+    company: "Edutechs Limited",
+    sub: "Gustav PMS · Hospitality SaaS",
     role: "Technical Support Engineer",
     highlights: [
-      "Coordinate SaaS product delivery and feedback integration between dev teams, sales departments, and enterprise client accounts.",
-      "Act as product operations champion, gathering raw user requirements and turning them into clear product stories in Jira.",
+      "Coordinate digital product delivery and feedback integration between design teams, dev teams, sales departments, and enterprise client accounts.",
+      "Act as a product operations manager, gathering raw user requirements and turning them into clear product stories in Jira.",
       "Ensure end-to-end QA coverage by performing meticulous field testing on SaaS reservation, billing, and reporting engines.",
       "Coordinating customer success and account health for high-profile hospitality clients including Shopnil Shindhu, and Mermaid Beach Resort."
     ],

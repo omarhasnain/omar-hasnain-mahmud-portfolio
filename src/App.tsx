@@ -243,8 +243,8 @@ export default function App() {
 
               <div className="space-y-5 text-sm sm:text-base text-gray-700 leading-relaxed font-normal">
                 <p>
-                  I'm a Product Manager with hands-on experience in VC-backed SaaS startups. At{" "}
-                  <strong>Dekko ISHO Venture Capital</strong>, I work on <strong>Gustav</strong> — a hospitality PMS — handling enterprise clients, requirement gathering, product testing, and cross-functional delivery.
+                  I'm a Product Manager with hands-on experience in Startup environments. At{" "}
+                  <strong>Edutechs Limited</strong>, I work on <strong>Gustav</strong> — a hospitality PMS — handling enterprise clients, product demonstrations, requirement gathering, product testing, and cross-functional delivery.
                 </p>
                 <p>
                   Previously at <strong>Programming Hero</strong>, I managed 1,200+ learners, co-designed the gamified{" "}
@@ -272,8 +272,8 @@ export default function App() {
 
               <div className="divide-y divide-gray-100">
                 {[
-                  { label: "Current Role", val: "Technical Support Engineer", sub: "Dekko ISHO VC · Gustav PMS" },
-                  { label: "Domain focus", val: "SaaS · Hospitality PMS", sub: "VC-backed startup environment" },
+                  { label: "Current Role", val: "Technical Support Engineer", sub: "Edutechs Limited · Gustav PMS" },
+                  { label: "Domain focus", val: "SaaS · Hospitality PMS", sub: "Startup Environment" },
                   { label: "Past Background", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
                   { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on binary intrusion detection" },
                   { label: "Role Alignment Target", val: "Global Tech · E-learning", sub: "PM / Operations Manager" },
