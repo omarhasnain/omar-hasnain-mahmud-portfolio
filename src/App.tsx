@@ -63,7 +63,7 @@ export default function App() {
       <div className="absolute bottom-0 left-[-10%] w-[70vw] h-[70vw] bg-radial from-brand-gold/5 via-transparent to-transparent opacity-40 z-0 pointer-events-none" />
 
       {/* Global Header Navigation */}
-      <Navbar onOpenResume={() => setIsResumeOpen(true)} />
+      {/* <Navbar onOpenResume={() => setIsResumeOpen(true)} /> */}
 
       {/* ── HERO SECTION ── */}
       <header
