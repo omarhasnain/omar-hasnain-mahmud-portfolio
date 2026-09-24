@@ -274,7 +274,7 @@ export default function App() {
                 {[
                   // { label: "Current Role", val: "Technical Support Engineer", sub: "Edutechs Limited · Gustav PMS" },
                   { label: "Domain focus", val: "Software · EdTech · Digital Marketing Agency", sub: "Startup Environment" },
-                  { label: "Past Background", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
+                  { label: "Past Background", val: "Technical Support Engineer", sub: "Edutechs Limited · Gustav PMS", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
                   { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on binary intrusion detection" },
                   { label: "Role Alignment Target", val: "Global Tech · E-learning", sub: "PM / Operations Manager" },
                 ].map((item) => (
