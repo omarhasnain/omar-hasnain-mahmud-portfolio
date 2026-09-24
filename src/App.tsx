@@ -204,7 +204,7 @@ export default function App() {
                 </div>
                 <div className="min-w-0">
                   <p className="text-[8px] uppercase font-bold tracking-wider text-brand-silver truncate">Core Alignment</p>
-                  <p className="text-xs font-extrabold text-[#ffffff] leading-none mt-0.5">SaaS Product PM</p>
+                  <p className="text-xs font-extrabold text-[#ffffff] leading-none mt-0.5">Digital Product PM</p>
                 </div>
               </div>
 
