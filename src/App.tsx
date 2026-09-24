@@ -107,7 +107,7 @@ export default function App() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="font-heading text-md sm:text-lg md:text-xl font-semibold tracking-wide text-brand-teal"
               >
-                Project Management · Client Coordination · Product · Execution
+                Project Management · CX · Product · Execution
               </motion.p>
             </div>
 
@@ -234,7 +234,7 @@ export default function App() {
               <div className="space-y-3">
                 <p className="text-[10px] font-bold uppercase tracking-widest text-[#2563eb] flex items-center gap-2">
                   <span className="w-6 h-[2px] bg-[#2563eb]" />
-                  Executive Bio
+                  About Me
                 </p>
                 <h2 className="font-heading font-extrabold text-[#0a0e1a] text-3xl sm:text-4xl md:text-5xl tracking-tight leading-tight">
                   Product thinking meets <span className="text-[#2563eb]">real execution</span>
@@ -271,53 +271,8 @@ export default function App() {
               </p>
 
               <div className="divide-y divide-gray-100">
-  [
-    {/* { 
-      label: "Current Role", 
-      val: "Technical Support Engineer", 
-      sub: "Edutechs Limited · Gustav PMS" 
-    }, */}
-
-    {
-      label: "Past Role",
-      val: "Tech Support Intern",
-      sub: "EduTechs Limited · Gustav PMS"
-    },
-
-    {
-      label: "Past Role",
-      val: "Project Executive",
-      sub: "Programming Hero · EdTech platform"
-    },
-
-    {
-      label: "Academic Landmark",
-      val: "IEEE Conference Publication",
-      sub: "Research paper on binary intrusion detection"
-    },
-
-    {
-      label: "Role Alignment Target",
-      val: "Global Tech · E-learning",
-      sub: "PM / Operations Manager"
-    },
-  ].map((item) => (
-    <div
-      key={item.label + item.val}
-      className="py-3.5 first:pt-0 last:pb-0 block space-y-0.5"
-    >
-      <p className="text-[9px] uppercase tracking-wider font-extrabold text-[#2563eb]">
-        {item.label}
-      </p>
-      <p className="text-sm font-bold text-[#0a0e1a]">{item.val}</p>
-      <p className="text-xs text-brand-silver">{item.sub}</p>
-    </div>
-  ))}
-</div>
-
-              {/* <div className="divide-y divide-gray-100">
                 {[
-                  { label: "Current Role", val: "Technical Support Engineer", sub: "Edutechs Limited · Gustav PMS" },
+                  // { label: "Current Role", val: "Technical Support Engineer", sub: "Edutechs Limited · Gustav PMS" },
                   { label: "Domain focus", val: "Software · EdTech · Digital Marketing Agency", sub: "Startup Environment" },
                   { label: "Past Background", val: "Project Executive", sub: "Programming Hero · EdTech platform" },
                   { label: "Academic Landmark", val: "IEEE Conference Publication", sub: "Research paper on binary intrusion detection" },
@@ -332,7 +287,7 @@ export default function App() {
                   </div>
                 ))}
               </div>
-            </div> */}
+            </div>
 
           </div>
         </div>
