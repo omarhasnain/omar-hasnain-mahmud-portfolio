@@ -26,7 +26,7 @@ import ExperienceTimeline from "./components/ExperienceTimeline";
 import InteractiveToolkit from "./components/InteractiveToolkit";
 import CaseStudyModal from "./components/CaseStudyModal";
 import AchievementsGrid from "./components/AchievementsGrid";
-import ResumeViewer from "./components/ResumeViewer";
+// import ResumeViewer from "./components/ResumeViewer";
 import ContactForm from "./components/ContactForm";
 
 // @ts-ignore
@@ -563,11 +563,11 @@ export default function App() {
       </section>
 
       {/* ── RESUME HUB PREVIEW AND SELECTION SECTION ── */}
-      <section id="resume" className="relative bg-brand-snow py-20 z-10 text-brand-ink border-t border-black/5">
+      {/* <section id="resume" className="relative bg-brand-snow py-20 z-10 text-brand-ink border-t border-black/5">
         <div className="max-w-7xl mx-auto px-6 md:px-12">
           <ResumeViewer />
         </div>
-      </section>
+      </section> */}
 
       {/* ── CONTACT & DISPATCH CONSOLE SECTION ── */}
       <section id="contact" className="relative bg-[#0d1222] text-white py-20 md:py-32 z-10 border-t border-white/5">

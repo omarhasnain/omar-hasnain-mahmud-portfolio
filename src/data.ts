@@ -65,7 +65,7 @@ export const CASE_STUDIES: CaseStudy[] = [
       "Oversaw tight acceptance testing routines mimicking peak travel hours to audit the durability of calendar sync operations."
     ],
     outcome: "Delivered a bulletproof synchronizer that connected Gustav's core inventory straight to international channel managers, cementing enterprise client trust.",
-    impactMetrics: ["Zero overbooking incidents in year 1", "5+ integrated enterprise accounts", "Auto-sync validation speed under 500ms"],
+    impactMetrics: ["Zero overbooking incidents", "5+ integrated enterprise accounts", "Auto-sync validation speed under 500ms"],
     stakeholders: ["Engineering Tech Lead", "Resort Operations managers", "Sales Leadership"]
   }
 ];
