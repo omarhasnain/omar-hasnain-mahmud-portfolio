@@ -107,7 +107,7 @@ export default function App() {
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="font-heading text-md sm:text-lg md:text-xl font-semibold tracking-wide text-brand-teal"
               >
-                Product Manager · SaaS · UX · Execution
+                Project Management · Client Coordination · Product · Execution
               </motion.p>
             </div>
 
@@ -118,7 +118,7 @@ export default function App() {
               transition={{ duration: 0.6, delay: 0.3 }}
               className="border-l-4 border-brand-accent pl-5 max-w-2xl py-1 text-md text-[#c8d0de] font-medium leading-relaxed italic"
             >
-              "I build and deliver user-focused SaaS products by combining product thinking, UX clarity, and execution discipline."
+              "I coordinate people, requirements, and execution to turn client needs into successfully delivered projects."
             </motion.div>
 
             {/* Core Biography paragraphs */}
