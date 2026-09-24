@@ -9,12 +9,12 @@ export const CASE_STUDIES: CaseStudy[] = [
     problem: "Enterprise hotel operators faced significant friction when transitioning to Gustav PMS from legacy systems. Configuration of room matrices, taxes, and multi-user permissions was complex, resulting in average onboarding times of up to 60 days and high customer drop-off.",
     role: "Key Accounts Manager (Product Operations Owner)",
     actions: [
-      "Conducted extensive stakeholder workshops with operational teams of enterprise clients like Windy Terrace and Mermaid Beach Resort to map custom workflows.",
+      "Conducted extensive stakeholder workshops with operational teams of enterprise clients like Shopnil Shindhu and Mermaid Beach Resort to map custom workflows.",
       "Translated operational requirements into comprehensive technical specifications, custom user guides, and clear user stories in Jira.",
       "Co-designed a new simplified 'Quick Onboarding Wizard' focusing on core data intake (inventory, pricing cards, and user roles).",
       "Conducted manual regression testing on critical reservation and billing modules to guarantee zero-fault launches."
     ],
-    outcome: "Successfully onboarded major hospitality giants (Shopnil Shindhu, Windy Terrace, Mermaid Beach Resort) and slashed average client onboarding time from 60 days to just 18 days, yielding a 3.3x efficiency gain and solidifying enterprise revenue.",
+    outcome: "Successfully onboarded major hospitality giants (Shopnil Shindhu, Mermaid Beach Resort) and slashed average client onboarding time from 60 days to just 18 days, yielding a 3.3x efficiency gain and solidifying enterprise revenue.",
     impactMetrics: ["3.3x faster client onboarding", "70% reduction in setup support tickets", "Onboarded 5+ major enterprise clients"],
     stakeholders: ["Hotel Operations Directors", "SaaS Engineering Team", "Venture Capital Partners"]
   },
