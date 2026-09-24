@@ -682,12 +682,12 @@ export default function App() {
               className="relative w-full max-w-4xl bg-white border border-black/5 rounded-2xl overflow-y-auto max-h-[90vh]"
             >
               <div className="sticky top-0 right-0 p-4 flex justify-end z-20 bg-brand-snow/80 backdrop-blur border-b border-gray-100">
-                <button
+                {/* <button
                   onClick={() => setIsResumeOpen(false)}
                   className="bg-brand-ink shrink-0 h-9 w-9 text-xs font-black uppercase text-brand-silver hover:text-white bg-brand-[#0a0e1a] rounded-lg transition-all border border-white/5 flex items-center justify-center cursor-pointer"
                 >
                   ✕ Close
-                </button>
+                </button> */}
               </div>
               <div className="p-4 md:p-8 bg-brand-snow shadow-inner">
                 <ResumeViewer />
