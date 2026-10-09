@@ -24,7 +24,7 @@ function EndorsementCard({ item, index = 0, className = "" }: EndorsementCardPro
 
   return (
     <div
-      className={`bg-brand-transparent border border-slate-200/90 hover:border-blue-400/50 rounded-2xl p-6 md:p-7 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group relative overflow-hidden h-full ${className}`}
+      className={`bg-brand-slate border border-slate-200/90 hover:border-blue-400/50 rounded-2xl p-6 md:p-7 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group relative overflow-hidden h-full ${className}`}
     >
       {/* Decorative subtle gradient splash on hover */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50/60 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform duration-500 opacity-60" />
