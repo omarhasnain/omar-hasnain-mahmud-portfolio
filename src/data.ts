@@ -2,54 +2,54 @@ import { Endorsement, CaseStudy, ExperienceItem, Tool, Strength, Publication, Ac
 
 export const ENDORSEMENTS: Endorsement[] = [
   {
-    id: "tanvir-rahman",
-    name: "Tanvir Hossain Khan",
-    designation: "Head of Engineering & Product",
-    company: "Dekko ISHO Venture Capital",
-    relationship: "Supervised Omar at Gustav PMS",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80",
-    recommendation: "Omar has an exceptional talent for translating ambiguous enterprise business requests into crystal-clear sprint backlogs. He led the Gustav PMS onboarding optimization that reduced transition time from 60 to 18 days. His rigorous QA regression discipline and dedication to client uptime made him indispensable to our product delivery pipeline.",
-    linkedinUrl: "https://www.linkedin.com/in/tanvir-hossain-khan-pm"
+    id: "dr-md-jiabul-hoque",
+    name: "Dr. MD Jiabul Hoque",
+    designation: "Assistant Professor",
+    company: "International Islamic University Chittagong",
+    relationship: "Academic Advisor & Research Supervisor",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFN_5r9a5WtVQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1720325935074?e=1793232000&v=beta&t=8b1_qsjZ61BGZfhjK4D3MjLb4jJYwtbyKctylUsPkEc",
+    recommendation: "I am pleased to recommend Omar Hasnain Mahmud for his strong research capabilities, technical problem-solving skills, and commitment to continuous learning. As the first author of a published IEEE Xplore paper on machine learning and network security, he has demonstrated valuable research experience in data analysis and intelligent intrusion detection. His leadership in cybersecurity competitions and contributions to student skill-development initiatives further highlight his initiative, teamwork, and potential for continued academic and professional growth.",
+    linkedinUrl: "https://www.linkedin.com/in/dr-md-jiabul-hoque-094341318/"
   },
   {
-    id: "jhankar-mahbub",
-    name: "Jhankar Mahbub",
-    designation: "Founder & Chief Executive Officer",
+    id: "m-ekram",
+    name: "M. Ekram",
+    designation: "CEO",
+    company: "Edutechs Limited",
+    relationship: "Executive Leadership at Edutechs Limited",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQEWIHrsurul7g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1667899346935?e=1793232000&v=beta&t=sUZ63n0n8jYksSGmDcOH_fqhX1oi9EpgBpL6aggbxVI",
+    recommendation: "Hard working individual and very good at dealing with clients directly",
+    linkedinUrl: "https://www.linkedin.com/in/m-ekram/"
+  },
+  {
+    id: "humaira-hussain",
+    name: "Humaira Hussain",
+    designation: "Growth & Lead Development Specialist",
+    company: "Dekko ISHO Venture Capital | Ex-Uber, Walton",
+    relationship: "Managed Omar at Gustav PMS",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFM_WHmUWPNIA/profile-displayphoto-shrink_400_400/B56Zu3EH4jHMAg-/0/1768302874324?e=1793232000&v=beta&t=IhaOh6P6Y0Hi9bvLmyDt5ccfeZJogsNnojsZWbL-gRE",
+    recommendation: "I worked with Omar at Gustav, where he took ownership of client onboarding, ran POCs, and delivered tech demos with clarity and confidence. He communicated professionally with clients and followed through reliably. He picked up the client-facing side of the business quickly and was a dependable contributor to the team. I'd happily recommend him to any team looking for someone client-focused and technically capable.",
+    linkedinUrl: "https://www.linkedin.com/in/humaira-hussain/"
+  },
+  {
+    id: "md-abdul-hamid",
+    name: "Md Abdul Hamid",
+    designation: "Technical Project Manager",
+    company: "SOFOF Tech",
+    relationship: "Supervised Omar at Programming Hero",
+    image: "https://media.licdn.com/dms/image/v2/D4D03AQFt8LUrZmWgzQ/profile-displayphoto-scale_400_400/B4DZkLAlLHH4Aw-/0/1756826326659?e=1793232000&v=beta&t=wYzJd-7nyRzclsjZNx0pLGT-kBqvv9od7fGhGt2IQps",
+    recommendation: "Mr. Hasnain is a hardworking and honest professional with excellent communication skills. He consistently meets deadlines and approaches every task with dedication and integrity. Any team would be lucky to have him.",
+    linkedinUrl: "https://www.linkedin.com/in/ab-hamid8/"
+  },
+  {
+    id: "talha-tarique",
+    name: "Talha Tarique",
+    designation: "Senior Project Executive",
     company: "Programming Hero",
-    relationship: "Executive Leadership at Programming Hero",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300&q=80",
-    recommendation: "Omar is a force multiplier when it comes to operational momentum. At Programming Hero, he supported over 1,200 learners while co-spearheading gamified projects like the 'Squid Game' debugging module, lifting completion rates by 22%. He demonstrates relentless user empathy and the rare ability to execute under high-stakes deadlines.",
-    linkedinUrl: "https://www.linkedin.com/in/jhankar-mahbub"
-  },
-  {
-    id: "syed-asaduzzaman",
-    name: "Syed Asaduzzaman",
-    designation: "Director of Hospitality Operations",
-    company: "Mermaid Beach Resort & Spa",
-    relationship: "Enterprise Client Partner & Key Account",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300&q=80",
-    recommendation: "Migrating our core reservation and channel management architecture to Gustav PMS was a mission-critical operation for our resort. Omar led the integration with composure, deep empathy for our front-desk staff, and relentless attention to detail. His speed in resolving complex inventory edge-cases saved our teams hundreds of operational hours.",
-    linkedinUrl: "https://www.linkedin.com/in/syed-asaduzzaman-hospitality"
-  },
-  {
-    id: "dr-tariqul-islam",
-    name: "Dr. Tariqul Islam",
-    designation: "Associate Professor & Research Supervisor",
-    company: "IIUC · Senior Member, IEEE",
-    relationship: "Academic Thesis & IEEE Research Advisor",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&h=300&q=80",
-    recommendation: "Omar's approach to product challenges is deeply rooted in empirical analysis and research discipline. Collaborating with him on our IEEE usability conference publication highlighted his ability to connect predictive data models with tangible human behaviors. He thinks like an engineer, investigates like a scientist, and executes like an operator.",
-    linkedinUrl: "https://www.linkedin.com/in/dr-tariqul-islam-research"
-  },
-  {
-    id: "ayesha-siddiqua",
-    name: "Ayesha Siddiqua",
-    designation: "Lead UX Researcher & Product Strategist",
-    company: "Global EdTech Collective",
-    relationship: "Cross-functional Product Collaborator",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&h=300&q=80",
-    recommendation: "What distinguishes Omar is his user-centric intuition. When analyzing customer friction points, he doesn't stop at surface requests—he uncovers the root behavioral friction. His refactor of the LMS submission workflow cut support tickets by 45%. Any high-growth SaaS or tech team would be lucky to have his product drive.",
-    linkedinUrl: "https://www.linkedin.com/in/ayesha-siddiqua-ux"
+    relationship: "Cross-Functional Product Collaborations",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFHyF5Csmki6A/profile-displayphoto-scale_400_400/B56aDeRYIdIQAg-/0/1790435496131?e=1793232000&v=beta&t=EfZ3MRLmFQT_CUVz1PNYSqZpWCRGAYRiCdkes9qtD1k",
+    recommendation: "Omar Hasnain Mahmud is a responsible and collaborative professional with a strong sense of ownership and strategic thinking. During our time at Programming Hero, we worked closely on technical operations and strategic project planning, where he demonstrated clear communication, adaptability, and practical problem-solving. His ability to balance operational execution with broader project objectives, support teammates, and contribute to shared goals made him a dependable and valued team member.",
+    linkedinUrl: "https://www.linkedin.com/in/talha-tarique/"
   }
 ];
 
