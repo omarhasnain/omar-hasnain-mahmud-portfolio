@@ -197,7 +197,7 @@ export default function EndorsementsSection() {
   return (
     <section
       id="endorsements"
-      className="relative bg-transparent text-slate-800 py-24 md:py-32 z-10 border-t border-slate-200/50"
+      className="relative bg-white text-slate-800 py-24 md:py-32 z-10 border-t border-slate-200/50"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-10 md:space-y-12">
         {/* Section Heading */}
