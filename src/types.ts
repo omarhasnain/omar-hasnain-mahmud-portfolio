@@ -47,3 +47,14 @@ export interface Achievement {
   metric: string;
   category: string;
 }
+
+export interface Endorsement {
+  id: string;
+  name: string;
+  designation: string;
+  company: string;
+  relationship: string;
+  image: string;
+  recommendation: string;
+  linkedinUrl: string;
+}

@@ -1,4 +1,58 @@
-import { CaseStudy, ExperienceItem, Tool, Strength, Publication, Achievement } from './types';
+import { Endorsement, CaseStudy, ExperienceItem, Tool, Strength, Publication, Achievement } from './types';
+
+export const ENDORSEMENTS: Endorsement[] = [
+  {
+    id: "tanvir-rahman",
+    name: "Tanvir Hossain Khan",
+    designation: "Head of Engineering & Product",
+    company: "Dekko ISHO Venture Capital",
+    relationship: "Supervised Omar at Gustav PMS",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=300&h=300&q=80",
+    recommendation: "Omar has an exceptional talent for translating ambiguous enterprise business requests into crystal-clear sprint backlogs. He led the Gustav PMS onboarding optimization that reduced transition time from 60 to 18 days. His rigorous QA regression discipline and dedication to client uptime made him indispensable to our product delivery pipeline.",
+    linkedinUrl: "https://www.linkedin.com/in/tanvir-hossain-khan-pm"
+  },
+  {
+    id: "jhankar-mahbub",
+    name: "Jhankar Mahbub",
+    designation: "Founder & Chief Executive Officer",
+    company: "Programming Hero",
+    relationship: "Executive Leadership at Programming Hero",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&h=300&q=80",
+    recommendation: "Omar is a force multiplier when it comes to operational momentum. At Programming Hero, he supported over 1,200 learners while co-spearheading gamified projects like the 'Squid Game' debugging module, lifting completion rates by 22%. He demonstrates relentless user empathy and the rare ability to execute under high-stakes deadlines.",
+    linkedinUrl: "https://www.linkedin.com/in/jhankar-mahbub"
+  },
+  {
+    id: "syed-asaduzzaman",
+    name: "Syed Asaduzzaman",
+    designation: "Director of Hospitality Operations",
+    company: "Mermaid Beach Resort & Spa",
+    relationship: "Enterprise Client Partner & Key Account",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300&q=80",
+    recommendation: "Migrating our core reservation and channel management architecture to Gustav PMS was a mission-critical operation for our resort. Omar led the integration with composure, deep empathy for our front-desk staff, and relentless attention to detail. His speed in resolving complex inventory edge-cases saved our teams hundreds of operational hours.",
+    linkedinUrl: "https://www.linkedin.com/in/syed-asaduzzaman-hospitality"
+  },
+  {
+    id: "dr-tariqul-islam",
+    name: "Dr. Tariqul Islam",
+    designation: "Associate Professor & Research Supervisor",
+    company: "IIUC · Senior Member, IEEE",
+    relationship: "Academic Thesis & IEEE Research Advisor",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=300&h=300&q=80",
+    recommendation: "Omar's approach to product challenges is deeply rooted in empirical analysis and research discipline. Collaborating with him on our IEEE usability conference publication highlighted his ability to connect predictive data models with tangible human behaviors. He thinks like an engineer, investigates like a scientist, and executes like an operator.",
+    linkedinUrl: "https://www.linkedin.com/in/dr-tariqul-islam-research"
+  },
+  {
+    id: "ayesha-siddiqua",
+    name: "Ayesha Siddiqua",
+    designation: "Lead UX Researcher & Product Strategist",
+    company: "Global EdTech Collective",
+    relationship: "Cross-functional Product Collaborator",
+    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=300&h=300&q=80",
+    recommendation: "What distinguishes Omar is his user-centric intuition. When analyzing customer friction points, he doesn't stop at surface requests—he uncovers the root behavioral friction. His refactor of the LMS submission workflow cut support tickets by 45%. Any high-growth SaaS or tech team would be lucky to have his product drive.",
+    linkedinUrl: "https://www.linkedin.com/in/ayesha-siddiqua-ux"
+  }
+];
+
 
 export const CASE_STUDIES: CaseStudy[] = [
   {
