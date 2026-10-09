@@ -24,7 +24,7 @@ function EndorsementCard({ item, index = 0, className = "" }: EndorsementCardPro
 
   return (
     <div
-      className={`bg-white border border-slate-200/90 hover:border-blue-400/50 rounded-2xl p-6 md:p-7 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group relative overflow-hidden h-full ${className}`}
+      className={`bg-brand-accent border border-slate-200/90 hover:border-blue-400/50 rounded-2xl p-6 md:p-7 shadow-xs hover:shadow-md transition-all duration-300 flex flex-col justify-between group relative overflow-hidden h-full ${className}`}
     >
       {/* Decorative subtle gradient splash on hover */}
       <div className="absolute top-0 right-0 w-32 h-32 bg-blue-50/60 rounded-full blur-2xl pointer-events-none group-hover:scale-125 transition-transform duration-500 opacity-60" />
@@ -197,7 +197,7 @@ export default function EndorsementsSection() {
   return (
     <section
       id="endorsements"
-      className="relative bg-white text-slate-800 py-24 md:py-32 z-10 border-t border-slate-200/50"
+      className="relative bg-brand-cloud text-slate-800 py-24 md:py-32 z-10 border-t border-slate-200/50"
     >
       <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-10 md:space-y-12">
         {/* Section Heading */}
