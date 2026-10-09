@@ -297,24 +297,6 @@ export default function App() {
       {/* ── ENDORSEMENTS: WHAT INDUSTRY LEADERS SAY ── */}
       <EndorsementsSection />
 
-      {/* ── CORE COMPETENCIES (SKILLS PILLARS) ── */}
-      <section id="skills" className="relative bg-transparent text-slate-800 py-24 md:py-32 z-10 border-t border-slate-200/50">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-12">
-          
-          <div className="space-y-3 max-w-2xl">
-            <p className="text-[10px] font-bold uppercase tracking-widest text-blue-600 flex items-center gap-2">
-              <span className="w-6 h-[2px] bg-blue-600" />
-              Core Competencies
-            </p>
-            <h2 className="font-heading font-extrabold text-slate-900 text-3xl sm:text-4xl tracking-tight">
-              Three pillars of <span className="text-blue-600">product excellence</span>
-            </h2>
-          </div>
- 
-          {/* Dynamic Toolkit component allowing search/filter/hover highlights */}
-          <InteractiveToolkit />
-        </div>
-      </section>
 
       {/* ── CASE STUDIES WORK SHOWCASE SECTION ── */}
       <section id="casestudies" className="relative py-20 md:py-32 z-10 border-t border-white/5 bg-[#0a0e1a]">
@@ -380,6 +362,7 @@ export default function App() {
 
         </div>
       </section>
+
 
       {/* ── CORE COMPETENCIES (SKILLS PILLARS) ── */}
       <section id="skills" className="relative bg-brand-cloud text-brand-ink py-20 md:py-32 z-10 border-t border-black/5">
