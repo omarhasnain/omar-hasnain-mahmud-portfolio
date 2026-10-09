@@ -34,7 +34,7 @@ export default function Navbar({ onOpenResume }: NavbarProps) {
       id="mainNav"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-12 ${
         scrolled
-          ? "bg-[#eef2f6]/95 backdrop-blur-md shadow-xs border-b border-slate-200/50 py-3"
+          ? "bg-[#000000]/95 backdrop-blur-md shadow-xs border-b border-slate-200/50 py-3"
           : "bg-[#eef2f6]/50 backdrop-blur-xs border-b border-[#cbd5e1]/30 py-4"
       }`}
     >
